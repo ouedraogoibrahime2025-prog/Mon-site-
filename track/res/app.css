@@ -1,0 +1,195 @@
+*{
+    outline:none;
+    max-width:100%;
+    box-sizing:border-box;
+    font-family:calibri, sans-serif;
+}
+
+body{
+    text-align:center;
+    background:white;
+    margin:0;
+}
+
+.container{
+    width:1000px;
+    display:inline-block;
+    text-align:left;
+}
+
+header{
+    background:#ffcc00;
+}
+
+.header{
+    border-bottom:3px solid white;
+    padding:12px;
+}
+
+.header .container{
+    display:inline-flex;
+    align-items:center;
+}
+
+.header .container .left{
+    width:50%;
+}
+.header .container .right{
+    width:50%;
+    text-align:right;
+}
+
+.links span{
+    margin-right:10px;
+}
+
+
+main{
+    padding:10px;
+}
+.form{
+    margin-top:20px;
+    margin-bottom:50px;
+}
+
+.title{
+    margin-bottom:17px;
+    padding:10px 0;
+    font-size:1.6em;
+    display:inline-block;
+    padding-right:20px;
+    border-bottom:2px solid #2bb82b;
+}
+
+.text{
+    font-size:1.1em;
+}
+
+.col{
+    margin:20px 0;
+}
+
+label{
+    display:block;
+    padding:5px 0;
+    font-weight:bold;
+    color:#4c4c4c;
+    font-size:0.9em;
+}
+
+input{
+    width:100%;
+    border:1Px solid #bebebe;
+    border-radius:3px;
+    padding:10px;
+}
+
+.multi{
+    display:flex;
+}
+
+.multi .left, .multi,.right{
+    width:100%;
+}
+.multi .left{
+    margin-right:10px;
+}
+
+.multi .right{
+    margin-left:10px;
+}
+
+button{
+    margin-top:10px;
+    width:200px;
+    padding:10px;
+    border:none;
+    border-radius:2.6px;
+    background:#2bb82b;
+    color:white;
+    font-weight:bold;
+    font-size:1em;
+}
+
+footer{
+    padding:20px;
+    border-top:1px solid #e0e0e0;
+    color:#383838;
+    font-size:0.9em;
+}
+
+.rows{
+    display:flex;
+}
+
+.cola{
+    width:100%;
+}
+
+.cola span{
+    display:block;
+    margin:6px 0;
+}
+
+.cola img{
+    width:120px;
+}
+
+span.legend{
+    font-weight:bold;
+    font-size:1.1em;
+    color:#ababab;
+}
+
+.methods{
+    text-align:center;
+}
+
+.methods img{
+    width:250px;
+}
+
+@media (max-width:700px){
+    button{
+        width:100%;
+    }
+
+    .rows{
+        display:block;
+    }
+    .cola{
+        margin:20px 0;
+    }
+}
+input.error{
+    border:1px solid red;
+}
+
+div.error{
+    color:red;
+}
+
+
+table{
+  display:inline-block;
+  border-collapse: separate;
+  border-spacing:30px 10px ;
+}
+
+
+table tr{
+    gap:20px;
+    line-height:24px;
+   
+}
+
+table td{
+    text-align:left;
+}
+
+th{
+    margin-right:50px;
+     text-align:left;
+}
+
+
